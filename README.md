@@ -58,7 +58,7 @@ end
 
 ![image](https://user-images.githubusercontent.com/66903336/140822828-30294eb4-e2d0-40ed-a3a7-e46cc74794bf.png)
 
-![image](https://user-images.githubusercontent.com/66903336/140823044-0f80457f-e92c-4f86-86fd-903ae6e76a54.png)
+![image](https://user-images.githubusercontent.com/66903336/140831152-beb22e53-efe8-45d0-9858-7ff83208e860.png)
 
 *Table*
 
