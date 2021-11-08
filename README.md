@@ -68,10 +68,21 @@ end
 
 # Results
 
+### Data and Notebook
 * [Binance Smart Chain Data](https://docs.google.com/spreadsheets/d/15TcqKG7zHvXzIhEKgtXlkYvKwdJCZJuSti52J2Q5mNk/edit?usp=sharing)
 
 * [Ethereum Data](https://docs.google.com/spreadsheets/d/1ylJp5Y7eoVZUFRcNT3NapTdZa8b6Zd2geQpWZkEongc/edit?usp=sharing)
 
+* [Python Notebook in Kaggle](https://www.kaggle.com/pavfedotov/parsiq-axs)
+### Analysis 
+There are 231 AXS token transactions in out dataset. 
+Only 46 are from Ronin and Binance accounts. 
+![image](https://user-images.githubusercontent.com/66903336/140833808-441336cc-4383-43b4-a40c-067279d44e0a.png)
+
+Meanwhile, the rest 80% are coming to the Ronin and Binance accounts.
+![image](https://user-images.githubusercontent.com/66903336/140834230-60f4fdaa-1ebd-4ddd-ba82-ded30833aebc.png)
+
+There are also more transactions to the native staking solution rather than Binance by a factor of 2.
 # Further Resources
 
-* []()
+* [CryptoPunks with PARSIQ](https://github.com/Pfed-prog/PARSIQ-CryptoPunks)
