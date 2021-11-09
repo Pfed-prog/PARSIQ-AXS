@@ -8,7 +8,7 @@ The token is available on multiple chains including Ethereum and Binance Smart C
 
 On April 28 2021 the game has made a significant update introducing Ronin Bridge, Axie Infinity Ethereum sidechain. 
 
-The contract has since become the crucial link in the Axie Infinity ecosystem and largely contributes to the prrice action of AXS. With the update the bridge has become the only available option for Axie marketplace, breeding, and morphing contracts.
+The contract has since become the crucial link in the Axie Infinity ecosystem and largely contributes to the price action of AXS. With the update the bridge has become the only available option for Axie marketplace, breeding, and morphing contracts.
 
 The idea for the project comes from the fact that on the Binance Exchange the highest earning product in Locked staking is AXS with an estimated APY of 131.25% far outperforming any similar prooduct on the exchange.
 
@@ -74,29 +74,33 @@ end
 
 * [Ethereum Data](https://docs.google.com/spreadsheets/d/1ylJp5Y7eoVZUFRcNT3NapTdZa8b6Zd2geQpWZkEongc/edit?usp=sharing)
 
-* [Python Notebook in Kaggle](https://www.kaggle.com/pavfedotov/parsiq-axs)
+* [Python Notebook on Kaggle](https://www.kaggle.com/pavfedotov/parsiq-axs)
 
 ## Analysis
 
-### Ethereum AXS
+### Ethereum Axie Infinity
 There are 231 AXS token transactions in our ethereum dataset.
 Only 46 are from Ronin and Binance accounts.
+
 ![image](https://user-images.githubusercontent.com/66903336/140833808-441336cc-4383-43b4-a40c-067279d44e0a.png)
 
 Meanwhile, the rest 80% are coming to the Ronin and Binance accounts.
+
 ![image](https://user-images.githubusercontent.com/66903336/140834230-60f4fdaa-1ebd-4ddd-ba82-ded30833aebc.png)
 
 There are also more transactions to the native staking solution rather than Binance by a factor of 2.
 
 Nevertheless, when we analyze the volume of outflows vs. inflows the sum of outflows dominate.
+
 ![image](https://user-images.githubusercontent.com/66903336/140838512-fdd1d2bb-97ab-45e3-98ba-31a70fd61d57.png)
 
-This would indicate more users incoming users and a significant withdrawal from Binance.
+This would indicate more incoming users and one or few significant withdrawals from Binance.
 
 We look at the more granular data and notice that one account is responsible for such bleak snapshot of AXS flows.
+
 ![image](https://user-images.githubusercontent.com/66903336/140838840-b8bff3aa-e094-453f-805e-8171dff13f87.png)
 
-We plot full ethereum dataset value of transactions against time
+We plot full ethereum dataset value of transactions against time.
 
 When plotted the inflows have a lot of spikes and more numerous for Binance.
 
@@ -106,7 +110,7 @@ While the outflows are more steady.
 
 ![image](https://user-images.githubusercontent.com/66903336/140850027-cab9d8b4-02cb-4f46-af99-ffdc9ac723f8.png)
 
-This picture is very similar for only AXS. With two spikes in Binance outflows against 0 in Ronin Bridge.
+The following picture is very similar for only AXS. With two spikes in Binance outflows against 0 in Ronin Bridge.
 
 ![image](https://user-images.githubusercontent.com/66903336/140851348-01692e99-9051-4da4-aa0a-de281140f1d5.png)
 
@@ -132,13 +136,13 @@ The volume of transactions is much greater on Ethereum of AXS than on Binance Sm
 
 In our AXS dataset on Ethereum we also obtained scores for addresses by using `getScore` in our trigger.
 
-What is interesting is that the systen scores higher the Binance account (85) rather than Ronin Bridge (76).
+What is interesting is that the system scores higher the Binance account (85) rather than Ronin Bridge (76).
 
 Besides, the average address that transacts to Ronin has score of 79. For Binance this figure is 80.
-For outflows the number is 79 for Ronin and 77 for Binance
+For outflows the number is 79 for Ronin and 77 for Binance.
 
 # Further Resources
 
-* [CryptoPunks with PARSIQ](https://github.com/Pfed-prog/PARSIQ-CryptoPunks)
-
+* [CryptoPunks with PARSIQ Github Repository](https://github.com/Pfed-prog/PARSIQ-CryptoPunks)
 * [Axie Infinity Great Migration FAQ](https://www.notion.so/axie/Great-Migration-FAQ-fc64fd460c8046b2a45d8798d06c0feb)
+* [This Project as a blog post](https://dspyt.com/blockchain-insights-with-parsiq-triggers-for-axie-infinity/)
