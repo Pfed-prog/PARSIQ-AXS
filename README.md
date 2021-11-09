@@ -39,7 +39,7 @@ process
 end
 ```
 
-### Trigger for Token transfer from or to Binance Accounts of AXS token on Bsc 
+### Trigger for Token transfer from or to Binance Accounts of AXS token on Bsc
 
 ```javascript
 stream _
@@ -54,13 +54,13 @@ end
 
 # User Data
 
-*Primitives*
+**Primitives**
 
 ![image](https://user-images.githubusercontent.com/66903336/140822828-30294eb4-e2d0-40ed-a3a7-e46cc74794bf.png)
 
 ![image](https://user-images.githubusercontent.com/66903336/140831152-beb22e53-efe8-45d0-9858-7ff83208e860.png)
 
-*Table*
+**Table**
 
 ![image](https://user-images.githubusercontent.com/66903336/140823112-159f545c-bcb1-4177-9f4d-97e7c1eb9a36.png)
 
@@ -76,11 +76,11 @@ end
 
 * [Python Notebook in Kaggle](https://www.kaggle.com/pavfedotov/parsiq-axs)
 
-## Analysis 
+## Analysis
 
 ### Ethereum AXS
-There are 231 AXS token transactions in our ethereum dataset. 
-Only 46 are from Ronin and Binance accounts. 
+There are 231 AXS token transactions in our ethereum dataset.
+Only 46 are from Ronin and Binance accounts.
 ![image](https://user-images.githubusercontent.com/66903336/140833808-441336cc-4383-43b4-a40c-067279d44e0a.png)
 
 Meanwhile, the rest 80% are coming to the Ronin and Binance accounts.
@@ -134,9 +134,11 @@ In our AXS dataset on Ethereum we also obtained scores for addresses by using `g
 
 What is interesting is that the systen scores higher the Binance account (85) rather than Ronin Bridge (76).
 
-Besides, the average address that transacts to Ronin has score of 79. For Binance this figure is 80. 
+Besides, the average address that transacts to Ronin has score of 79. For Binance this figure is 80.
 For outflows the number is 79 for Ronin and 77 for Binance
 
 # Further Resources
 
 * [CryptoPunks with PARSIQ](https://github.com/Pfed-prog/PARSIQ-CryptoPunks)
+
+* [Axie Infinity Great Migration FAQ](https://www.notion.so/axie/Great-Migration-FAQ-fc64fd460c8046b2a45d8798d06c0feb)
