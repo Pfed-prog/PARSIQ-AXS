@@ -75,6 +75,7 @@ end
 
 * [Python Notebook in Kaggle](https://www.kaggle.com/pavfedotov/parsiq-axs)
 ### Analysis 
+
 There are 231 AXS token transactions in out dataset. 
 Only 46 are from Ronin and Binance accounts. 
 ![image](https://user-images.githubusercontent.com/66903336/140833808-441336cc-4383-43b4-a40c-067279d44e0a.png)
@@ -83,6 +84,15 @@ Meanwhile, the rest 80% are coming to the Ronin and Binance accounts.
 ![image](https://user-images.githubusercontent.com/66903336/140834230-60f4fdaa-1ebd-4ddd-ba82-ded30833aebc.png)
 
 There are also more transactions to the native staking solution rather than Binance by a factor of 2.
+
+Nevertheless, when we analyze the volume of outflows vs. inflows the sum of outflows dominate.
+![image](https://user-images.githubusercontent.com/66903336/140838512-fdd1d2bb-97ab-45e3-98ba-31a70fd61d57.png)
+
+We look at the more granular data and notice that one account is responsible for such bleak snapshot of AXS flows.
+![image](https://user-images.githubusercontent.com/66903336/140838840-b8bff3aa-e094-453f-805e-8171dff13f87.png)
+
+Hence, we would need to further incorporate more data in our analysis to determine the scope of weekly and monthly flows in AXS token.
+
 # Further Resources
 
 * [CryptoPunks with PARSIQ](https://github.com/Pfed-prog/PARSIQ-CryptoPunks)
